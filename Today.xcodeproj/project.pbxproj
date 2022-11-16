@@ -22,6 +22,9 @@
 		67FCADE129243CEB00632156 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADE029243CEB00632156 /* UIColor+Today.swift */; };
 		67FCADE329253A7000632156 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADE229253A7000632156 /* ReminderDoneButton.swift */; };
 		67FCADE529253AF100632156 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADE429253AF100632156 /* ReminderListViewController+Actions.swift */; };
+		67FCADE72925403100632156 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADE62925403100632156 /* ReminderViewController.swift */; };
+		67FCADEA2925418500632156 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADE92925418500632156 /* ReminderViewController+Row.swift */; };
+		67FCADEC292572F500632156 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADEB292572F500632156 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		67FCADE029243CEB00632156 /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		67FCADE229253A7000632156 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		67FCADE429253AF100632156 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		67FCADE62925403100632156 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		67FCADE92925418500632156 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		67FCADEB292572F500632156 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,7 @@
 				67FCADB129242C5400632156 /* LaunchScreen.storyboard */,
 				67FCADB429242C5400632156 /* Info.plist */,
 				67FCADE229253A7000632156 /* ReminderDoneButton.swift */,
+				67FCADE82925416700632156 /* DetailViewController */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -159,6 +166,16 @@
 				67FCADE429253AF100632156 /* ReminderListViewController+Actions.swift */,
 			);
 			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		67FCADE82925416700632156 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67FCADE62925403100632156 /* ReminderViewController.swift */,
+				67FCADE92925418500632156 /* ReminderViewController+Row.swift */,
+				67FCADEB292572F500632156 /* ReminderViewController+Section.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,10 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67FCADEC292572F500632156 /* ReminderViewController+Section.swift in Sources */,
 				67FCADE129243CEB00632156 /* UIColor+Today.swift in Sources */,
 				67FCADE529253AF100632156 /* ReminderListViewController+Actions.swift in Sources */,
+				67FCADE72925403100632156 /* ReminderViewController.swift in Sources */,
 				67FCADAB29242C5300632156 /* ReminderListViewController.swift in Sources */,
 				67FCADDA2924358500632156 /* Date+Today.swift in Sources */,
+				67FCADEA2925418500632156 /* ReminderViewController+Row.swift in Sources */,
 				67FCADE329253A7000632156 /* ReminderDoneButton.swift in Sources */,
 				67FCADA729242C5300632156 /* AppDelegate.swift in Sources */,
 				67FCADA929242C5300632156 /* SceneDelegate.swift in Sources */,
