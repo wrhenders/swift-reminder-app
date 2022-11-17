@@ -33,6 +33,7 @@
 		67FCADF92925807400632156 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADF82925807400632156 /* DatePickerContentView.swift */; };
 		67FCADFB2926808300632156 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADFA2926808300632156 /* ReminderListStyle.swift */; };
 		67FCADFD2926BEC900632156 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADFC2926BEC900632156 /* ProgressHeaderView.swift */; };
+		67FCADFF2926C6F700632156 /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCADFE2926C6F700632156 /* CAGradientLayer+ListStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		67FCADF82925807400632156 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		67FCADFA2926808300632156 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		67FCADFC2926BEC900632156 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		67FCADFE2926C6F700632156 /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				67FCADD92924358500632156 /* Date+Today.swift */,
 				67FCADE029243CEB00632156 /* UIColor+Today.swift */,
 				67FCADFA2926808300632156 /* ReminderListStyle.swift */,
+				67FCADFE2926C6F700632156 /* CAGradientLayer+ListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				67FCADEE292578AA00632156 /* ReminderViewController+CellConfiguration.swift in Sources */,
 				67FCADA929242C5300632156 /* SceneDelegate.swift in Sources */,
 				67FCADD829242E1200632156 /* Reminder.swift in Sources */,
+				67FCADFF2926C6F700632156 /* CAGradientLayer+ListStyle.swift in Sources */,
 				67FCADDF2924376C00632156 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
